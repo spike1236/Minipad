@@ -3,10 +3,10 @@ AR Notepad is a simple text editor with a set of commands for working with text.
 The application helps computer users create and edit text documents, as well as print them on paper.\
 AR Notepad also supports multi-colored text with a variety of fonts.
 ## About project
-### File work:
+### File work
 * open, save and create files, as well as save text to the specified file;
 * print the text;
-### Text work:
+### Text work
 * cut;
 * paste;
 * copy;
@@ -19,12 +19,12 @@ AR Notepad also supports multi-colored text with a variety of fonts.
 
 There is also a mini-encyclopedia that describes some of the functions.\
 If any errors occur, the user is notified.
-## Technologies:
+## Technologies
 Following technologies and libraries were used to create this project:
 * [PyQT5](https://riverbankcomputing.com/software/pyqt/intro)
 
 
-## Author:
+## Author
 * **Rakhmetulla Akram** - [spike1236](https://github.com/spike1236)
 
 
