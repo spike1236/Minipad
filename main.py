@@ -532,7 +532,7 @@ class Simplopad(QMainWindow):
 if __name__ == '__main__':
     # Создание класса приложения PyQT
     app = QApplication(sys.argv)
-    # Создание и показ пользователю экземпляра MainWindow класса Notepad
+    # Создание и показ пользователю экземпляра MainWindow класса Simplopad
     ex = Simplopad()
     ex.show()
     # Ожидание, пока пользователь не завершит исполнение app (QApplication),

@@ -31,4 +31,4 @@ Following technologies and libraries were used to create this project:
 ## License
 This work is licensed under a 
 [Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License](http://creativecommons.org/licenses/by-nc-nd/4.0/).\
-See [LICENSE](https://github.com/spike1236/AR_Notepad/blob/master/LICENSE.md) file for details.
+See [LICENSE](https://github.com/spike1236/Simplopad/blob/master/LICENSE.md) file for details.
