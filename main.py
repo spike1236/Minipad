@@ -12,17 +12,17 @@ from PyQt5.QtCore import Qt, QSize
 from PyQt5.QtPrintSupport import QPrintDialog
 
 # Название приложения
-APP_NAME = 'AR Notepad'
+APP_NAME = 'Simplopad'
 
 # Информация о приложении
-APP_INFO = """AR Notepad - simple text editor and a basic text-editing program. \
+APP_INFO = """Simplopad - simple text editor and a basic text-editing program. \
 It helps computer users to create and edit text documents and print them on paper.\n
-The resulting files save with the ".txt" extension.\n
-The AR Notepad also supports a multicolored and multi-font text."""
+The resulting files are saved with the ".txt" extension.\n
+Simplopad also supports multi-font text."""
 
 
-# Класс "AR Notepad"
-class ARNotepad(QMainWindow):
+# Класс "Simplopad"
+class Simplopad(QMainWindow):
     def __init__(self):
         super().__init__()
 
@@ -209,8 +209,8 @@ class ARNotepad(QMainWindow):
         # Добавление в строку меню пункта "Справка (Info)"
         self.menu_INFO = self.menuBar().addMenu('Info')
 
-        # Инструмент "О программе (About AR Notepad)"
-        self.action_about_box = QAction(QIcon('icons/question_icon.png'), 'About AR Notepad', self)
+        # Инструмент "О программе (About Simplopad)"
+        self.action_about_box = QAction(QIcon('icons/question_icon.png'), 'About Simplopad', self)
         self.action_about_box.triggered.connect(self.show_info_about_app)
         self.menu_INFO.addAction(self.action_about_box)
 
@@ -297,14 +297,14 @@ class ARNotepad(QMainWindow):
         info_box = QMessageBox(self)
         info_box.setIcon(QMessageBox.Question)
         info_box.setWindowTitle('Close')
-        info_box.setText("Stops AR Notepad's work and closes it")
+        info_box.setText("Stops Simplopad's work and closes it")
         info_box.show()
 
     # Функция "show_info_about_app", показывающая информацию о программе
     def show_info_about_app(self):
         info_box = QMessageBox(self)
         info_box.setIcon(QMessageBox.Question)
-        info_box.setWindowTitle('About AR Notepad')
+        info_box.setWindowTitle('About Simplopad')
         info_box.setText(APP_INFO)
         info_box.show()
 
@@ -493,7 +493,7 @@ class ARNotepad(QMainWindow):
         # Вопрос у пользователя, на уверенность в завершении программы
         want_to_close = QMessageBox.question(self,
                                              APP_NAME,
-                                             'Are you sure want to close AR Notepad?',
+                                             'Are you sure want to close Simplopad?',
                                              QMessageBox.Yes | QMessageBox.No)
         if want_to_close == QMessageBox.Yes:
             # Если пользователь согласен, значит надо закрыть файл
@@ -533,7 +533,7 @@ if __name__ == '__main__':
     # Создание класса приложения PyQT
     app = QApplication(sys.argv)
     # Создание и показ пользователю экземпляра MainWindow класса Notepad
-    ex = ARNotepad()
+    ex = Simplopad()
     ex.show()
     # Ожидание, пока пользователь не завершит исполнение app (QApplication),
     # и затем завершение программы

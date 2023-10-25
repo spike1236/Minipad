@@ -1,7 +1,7 @@
-# AR Notepad
-AR Notepad is a simple text editor with a set of commands for working with text.\
+# Simplopad
+Simplopad is a simple text editor with a set of commands for working with text.\
 The application helps computer users create and edit text documents, as well as print them on paper.\
-AR Notepad also supports multi-colored text with a variety of fonts.
+Simplopad also supports multi-colored text with a variety of fonts.
 ## About project
 ### File work
 * open, save and create files, as well as save text to the specified file;
