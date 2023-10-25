@@ -1,7 +1,7 @@
-# Simplopad
-Simplopad is a simple text editor with a set of commands for working with text.\
+# Minipad
+Minipad is a simple text editor with a set of commands for working with text.\
 The application helps computer users create and edit text documents, as well as print them on paper.\
-Simplopad also supports multi-colored text with a variety of fonts.
+Minipad also supports multi-colored text with a variety of fonts.
 ## About project
 ### File work
 * open, save and create files, as well as save text to the specified file;
@@ -31,4 +31,4 @@ Following technologies and libraries were used to create this project:
 ## License
 This work is licensed under a 
 [Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License](http://creativecommons.org/licenses/by-nc-nd/4.0/).\
-See [LICENSE](https://github.com/spike1236/Simplopad/blob/master/LICENSE.md) file for details.
+See [LICENSE](https://github.com/spike1236/Minipad/blob/master/LICENSE.md) file for details.
