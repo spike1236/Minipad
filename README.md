@@ -1,6 +1,6 @@
 # Minipad
-Minipad is a simple text editor with a set of commands for working with text.\
-The application helps computer users create and edit text documents, as well as print them on paper.\
+Minipad is a user-friendly text editor that offers a range of commands for efficient text manipulation.\
+Application enables users to create, edit, and print text documents with ease.\
 Minipad also supports multi-colored text with a variety of fonts.
 ## About project
 ### File work
@@ -17,8 +17,8 @@ Minipad also supports multi-colored text with a variety of fonts.
 * change the font, its size, as well as the style: bold, italic, etc.;
 * zoom in and out text.
 
-There is also a mini-encyclopedia that describes some of the functions.\
-If any errors occur, the user is notified.
+There is also a docs that describes some of the functions.\
+If any errors occur, users will be notified promptly.
 ## Technologies
 Following technologies and libraries were used to create this project:
 * [PyQT5](https://riverbankcomputing.com/software/pyqt/intro)
